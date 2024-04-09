@@ -20,7 +20,6 @@ function removeFalsyProperties2(obj: any): any {
     return obj;
 }
 
-// Sử dụng hàm để loại bỏ các thuộc tính có giá trị falsy từ đối tượng
 let inputObject2 = {
     a: null,
     b: false,
